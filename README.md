@@ -1,0 +1,1 @@
+# SciML-Learning-FitzHugh-Nagumo-Equation-via-Extended-Physics-Informed-Neural-Network
