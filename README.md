@@ -13,6 +13,8 @@ This equation has two time scales (fast/slow) that hinders the training of ordin
 
 A separate, smaller PINN is trained for each window. The initial condition for each window is the final state predicted by the PINN from the previous window. This allows each network to focus on learning the dynamics over a shorter, simpler time horizon, which can significantly improve accuracy for stiff ODEs.
 
+Inspired by the paper: [Extended Physics-Informed Neural Networks (XPINNs): A Generalized Space-Time Domain Decomposition Based Deep Learning Framework for Nonlinear Partial Differential Equations](https://doi.org/10.4208/cicp.OA-2020-0164)
+
 <img width="1012" height="547" alt="fn_output1" src="https://github.com/user-attachments/assets/66fedfac-cec6-496e-9ed9-4ab1d4bb4a1c" />
 
 <img width="1021" height="547" alt="fn_output2" src="https://github.com/user-attachments/assets/bc446e1b-51a6-4e6e-91bd-249dc558a942" />
